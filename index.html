@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ecb9e54355.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+<nav>
+    <img src="images/download.jpg" class="download">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        
+        
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+    <div class="header-text">
+        <p>Business Analyst</p>
+        <h1>Hi, I'm <span>Chathurdha</span><br> From Sri Lanka</h1>
+    </div>
+        </div>
+        </div>
+       <!--  ----about------- -->
+        <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/stand.jpeg">
+
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                  <p>My name is Chathurdha Vidyani. My nick name is CHATHU. I am from Galle. I was born on 30 th of July 1999. Now I'm 24 years old. <br>I have been to Southlands College Galle. I faced the G.C.E O/L examination in 2015. I gained 8A passes and 1B pass. I followed my A/L s in Bio Science stream. I have been selected to General Sir John Kotelawala Defence University. I am following BSc(Hons) Information Systems. <br>I like to build up my future career as a Business Analyst  </p>  
+                  <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                  <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                  <p class="tab-links" onclick="opentab('education')"> Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span> Data Analysis</span><br>Analyzing data to extract insights.</li>
+                        <li> <span>Stakeholder Management </span><br>Engaging and managing stakeholders</li>
+                        <li> <span> Requirements Gathering</span><br>Collecting and documenting project needs.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span> 2022</span><br>Internship at ABC company </li>
+                        <li> <span> 2023</span><br>Business Analyst in University project</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span> 2021</span><br>Completed diploma in Esoft Metro Campus</li>
+                        <li> <span>2022 current </span><br>Undergraduate in General Sir John Kotelawala Defence University </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+      <!--  -------------services---------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Requirements Prioritization  </h2>
+                    <p>I excel in identifying and ranking organizational needs, 
+                        gathering stakeholder insights.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> Data Analysis<br> with SQL and Excel </h2>
+                    <p> I utilize my SQL and Excel skills for comprehensive data analysis. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> Data Visualization <br>Techniques </h2>
+                    <p> I am a data visualization expert who can effectively communicate key
+                         insights. </p>
+                    <a href="#">Learn more</a>
+                </div>
+             
+            </div>
+        </div>
+      </div>
+      <!-- ----------portfolio---------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work2.jpeg">
+                 <div class="layer">
+                    <h3> Gather and Analyze Data</h3>
+                    <p>gather and analyze data from various sources, including business stakeholders, databases, and documents, to identify trends, patterns, and potential issues. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                 </div>  
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3> Stakeholder Communication</h3>
+                         <p>Effective communication is a critical part of the job. Need to bridge the gap between technical teams and business stakeholders. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div> 
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpeg">
+                    <div class="layer">
+                        <h3> Risk Analysis</h3>
+                        <p> Identifying and assessing potential risks and issues related to a project and developing strategies to mitigate those risks.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div> 
+                </div>
+            </div>
+<a href="#" class="btn">See more</a>
+        </div>
+      </div>
+   <!--   ----------------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> chathurdha1999@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 0763730600</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/chathurdha.vidyani"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/chathurdhavidyani"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required> 
+                     <input type="email" name="email" placeholder="Your Email"required >
+                     <textarea name="Message"  rows="6" placeholder=" Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Chathu. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add ("active-tab");
+            }
+        </script>
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right= "0";
+ }
+   function closemenu(){
+    sidemenu.style.right= "-200px";
+   }     
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzuj5GBB2ne_EPicWfKoh6GLZMQHuOa68lRf7FpmcszeusnKcwFP8qO4hQn00YsmYRlWw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        </body>
+</html>
